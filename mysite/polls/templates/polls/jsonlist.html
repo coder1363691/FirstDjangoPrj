@@ -1,0 +1,12 @@
+
+{% if children_list %}
+	<u1>
+		{% for file in children_list %}
+		<li><a href="{% url 'polls:detail' 1 %}">[   {{ file.contri|floatformat:6}}   ]: {{ file.name }}</a></li>
+		{% endfor %}
+
+	</u1>
+{% else %}
+	<p>No more data to list.</p>
+{% endif %}
+

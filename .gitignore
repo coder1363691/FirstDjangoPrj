@@ -1,2 +1,4 @@
 *.pyc
 venv
+meta.json.bak
+views.py.bak

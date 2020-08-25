@@ -1,0 +1,15 @@
+
+
+{
+	"root":{"file_list":[{"name":"A", "contri":0.0}]},
+	"A":{"file_list":[{"name":"A1", "contri":0.1}, {"name":"A2", "contri":0.2}]},
+	"A1":{"file_list":[{"name":"B1", "contri":0.3}, {"name":"B2", "contri":0.4}]},
+	"A2":{"file_list":[{"name":"C1", "contri":0.5}, {"name":"C2", "contri":0.6}]},
+	"B1":{"file_list":[]},
+	"B2":{"file_list":[]},
+	"C1":{"file_list":[]},
+	"C2":{"file_list":[]}
+}
+
+
+
